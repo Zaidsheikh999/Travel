@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB907E52A3B4BF300345B24 /* TravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB907E42A3B4BF300345B24 /* TravelApp.swift */; };
+		3CB907E72A3B4BF300345B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB907E62A3B4BF300345B24 /* ContentView.swift */; };
+		3CB907E92A3B4BF800345B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB907E82A3B4BF800345B24 /* Assets.xcassets */; };
+		3CB907EC2A3B4BF900345B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB907EB2A3B4BF800345B24 /* Preview Assets.xcassets */; };
+		3CB907F62A3B4BF900345B24 /* TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB907F52A3B4BF900345B24 /* TravelTests.swift */; };
+		3CB908002A3B4BF900345B24 /* TravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB907FF2A3B4BF900345B24 /* TravelUITests.swift */; };
+		3CB908022A3B4BF900345B24 /* TravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908012A3B4BF900345B24 /* TravelUITestsLaunchTests.swift */; };
+		3CB908122A3B522100345B24 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908112A3B522100345B24 /* WelcomeView.swift */; };
+		3CB908142A3B55FE00345B24 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908132A3B55FE00345B24 /* OnboardingView.swift */; };
+		3CB908162A3B5A9200345B24 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908152A3B5A9200345B24 /* OnBoarding.swift */; };
+		3CB908182A3B608B00345B24 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908172A3B608B00345B24 /* SignInView.swift */; };
+		3CB9081D2A3B60D300345B24 /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9081A2A3B60D300345B24 /* ButtonLabel.swift */; };
+		3CB9081E2A3B60D300345B24 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9081B2A3B60D300345B24 /* TextInput.swift */; };
+		3CB9081F2A3B60D300345B24 /* BackButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9081C2A3B60D300345B24 /* BackButtonLabel.swift */; };
+		3CB908212A3B616700345B24 /* TravelAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908202A3B616700345B24 /* TravelAppViewModel.swift */; };
+		3CCC86522A4030C10088302A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86512A4030C10088302A /* SignUpView.swift */; };
+		3CCC86542A40310D0088302A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86532A40310D0088302A /* ForgotPasswordView.swift */; };
+		3CCC86562A40313C0088302A /* EnterPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86552A40313C0088302A /* EnterPhoneNumberView.swift */; };
+		3CCC86582A4031860088302A /* VerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86572A4031860088302A /* VerifyCodeView.swift */; };
+		3CCC865A2A4031D70088302A /* AccountCreatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86592A4031D70088302A /* AccountCreatedView.swift */; };
+		3CCC865C2A4040AD0088302A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC865B2A4040AD0088302A /* MainView.swift */; };
+		3CCC865E2A40412C0088302A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC865D2A40412C0088302A /* HomeView.swift */; };
+		3CCC86602A40416D0088302A /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC865F2A40416D0088302A /* ExploreView.swift */; };
+		3CCC86622A4041A40088302A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86612A4041A40088302A /* NotificationsView.swift */; };
+		3CCC86642A4041BA0088302A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86632A4041BA0088302A /* ProfileView.swift */; };
+		3CCC86662A4041DB0088302A /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86652A4041DB0088302A /* LocationView.swift */; };
+		3CCC86682A4042040088302A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86672A4042040088302A /* SearchView.swift */; };
+		3CCC866A2A4042350088302A /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC86692A4042350088302A /* SearchResultsView.swift */; };
+		3CCC866C2A4042590088302A /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC866B2A4042590088302A /* PaymentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB907F22A3B4BF900345B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB907D92A3B4BF300345B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB907E02A3B4BF300345B24;
+			remoteInfo = Travel;
+		};
+		3CB907FC2A3B4BF900345B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB907D92A3B4BF300345B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB907E02A3B4BF300345B24;
+			remoteInfo = Travel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB907E12A3B4BF300345B24 /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB907E42A3B4BF300345B24 /* TravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelApp.swift; sourceTree = "<group>"; };
+		3CB907E62A3B4BF300345B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CB907E82A3B4BF800345B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB907EB2A3B4BF800345B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CB907F12A3B4BF900345B24 /* TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB907F52A3B4BF900345B24 /* TravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTests.swift; sourceTree = "<group>"; };
+		3CB907FB2A3B4BF900345B24 /* TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB907FF2A3B4BF900345B24 /* TravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelUITests.swift; sourceTree = "<group>"; };
+		3CB908012A3B4BF900345B24 /* TravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CB908112A3B522100345B24 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3CB908132A3B55FE00345B24 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3CB908152A3B5A9200345B24 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		3CB908172A3B608B00345B24 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3CB9081A2A3B60D300345B24 /* ButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
+		3CB9081B2A3B60D300345B24 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		3CB9081C2A3B60D300345B24 /* BackButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButtonLabel.swift; sourceTree = "<group>"; };
+		3CB908202A3B616700345B24 /* TravelAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppViewModel.swift; sourceTree = "<group>"; };
+		3CCC86512A4030C10088302A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3CCC86532A40310D0088302A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		3CCC86552A40313C0088302A /* EnterPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneNumberView.swift; sourceTree = "<group>"; };
+		3CCC86572A4031860088302A /* VerifyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeView.swift; sourceTree = "<group>"; };
+		3CCC86592A4031D70088302A /* AccountCreatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreatedView.swift; sourceTree = "<group>"; };
+		3CCC865B2A4040AD0088302A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3CCC865D2A40412C0088302A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3CCC865F2A40416D0088302A /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		3CCC86612A4041A40088302A /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		3CCC86632A4041BA0088302A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3CCC86652A4041DB0088302A /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		3CCC86672A4042040088302A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3CCC86692A4042350088302A /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		3CCC866B2A4042590088302A /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB907DE2A3B4BF300345B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB907EE2A3B4BF900345B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB907F82A3B4BF900345B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB907D82A3B4BF300345B24 = {
+			isa = PBXGroup;
+			children = (
+				3CB907E32A3B4BF300345B24 /* Travel */,
+				3CB907F42A3B4BF900345B24 /* TravelTests */,
+				3CB907FE2A3B4BF900345B24 /* TravelUITests */,
+				3CB907E22A3B4BF300345B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB907E22A3B4BF300345B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB907E12A3B4BF300345B24 /* Travel.app */,
+				3CB907F12A3B4BF900345B24 /* TravelTests.xctest */,
+				3CB907FB2A3B4BF900345B24 /* TravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB907E32A3B4BF300345B24 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908192A3B60D300345B24 /* Components */,
+				3CB908102A3B51CB00345B24 /* Model */,
+				3CB9080F2A3B51C200345B24 /* ViewModel */,
+				3CB907E42A3B4BF300345B24 /* TravelApp.swift */,
+				3CB907E62A3B4BF300345B24 /* ContentView.swift */,
+				3CB9080E2A3B51B900345B24 /* Views */,
+				3CB907E82A3B4BF800345B24 /* Assets.xcassets */,
+				3CB907EA2A3B4BF800345B24 /* Preview Content */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		3CB907EA2A3B4BF800345B24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CB907EB2A3B4BF800345B24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CB907F42A3B4BF900345B24 /* TravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB907F52A3B4BF900345B24 /* TravelTests.swift */,
+			);
+			path = TravelTests;
+			sourceTree = "<group>";
+		};
+		3CB907FE2A3B4BF900345B24 /* TravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB907FF2A3B4BF900345B24 /* TravelUITests.swift */,
+				3CB908012A3B4BF900345B24 /* TravelUITestsLaunchTests.swift */,
+			);
+			path = TravelUITests;
+			sourceTree = "<group>";
+		};
+		3CB9080E2A3B51B900345B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908112A3B522100345B24 /* WelcomeView.swift */,
+				3CB908132A3B55FE00345B24 /* OnboardingView.swift */,
+				3CB908172A3B608B00345B24 /* SignInView.swift */,
+				3CCC86512A4030C10088302A /* SignUpView.swift */,
+				3CCC86532A40310D0088302A /* ForgotPasswordView.swift */,
+				3CCC86552A40313C0088302A /* EnterPhoneNumberView.swift */,
+				3CCC86572A4031860088302A /* VerifyCodeView.swift */,
+				3CCC86592A4031D70088302A /* AccountCreatedView.swift */,
+				3CCC865B2A4040AD0088302A /* MainView.swift */,
+				3CCC865D2A40412C0088302A /* HomeView.swift */,
+				3CCC865F2A40416D0088302A /* ExploreView.swift */,
+				3CCC86612A4041A40088302A /* NotificationsView.swift */,
+				3CCC86632A4041BA0088302A /* ProfileView.swift */,
+				3CCC86652A4041DB0088302A /* LocationView.swift */,
+				3CCC86672A4042040088302A /* SearchView.swift */,
+				3CCC86692A4042350088302A /* SearchResultsView.swift */,
+				3CCC866B2A4042590088302A /* PaymentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CB9080F2A3B51C200345B24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908202A3B616700345B24 /* TravelAppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3CB908102A3B51CB00345B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908152A3B5A9200345B24 /* OnBoarding.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CB908192A3B60D300345B24 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3CB9081A2A3B60D300345B24 /* ButtonLabel.swift */,
+				3CB9081B2A3B60D300345B24 /* TextInput.swift */,
+				3CB9081C2A3B60D300345B24 /* BackButtonLabel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB907E02A3B4BF300345B24 /* Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB908052A3B4BF900345B24 /* Build configuration list for PBXNativeTarget "Travel" */;
+			buildPhases = (
+				3CB907DD2A3B4BF300345B24 /* Sources */,
+				3CB907DE2A3B4BF300345B24 /* Frameworks */,
+				3CB907DF2A3B4BF300345B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travel;
+			productName = Travel;
+			productReference = 3CB907E12A3B4BF300345B24 /* Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB907F02A3B4BF900345B24 /* TravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB908082A3B4BF900345B24 /* Build configuration list for PBXNativeTarget "TravelTests" */;
+			buildPhases = (
+				3CB907ED2A3B4BF900345B24 /* Sources */,
+				3CB907EE2A3B4BF900345B24 /* Frameworks */,
+				3CB907EF2A3B4BF900345B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB907F32A3B4BF900345B24 /* PBXTargetDependency */,
+			);
+			name = TravelTests;
+			productName = TravelTests;
+			productReference = 3CB907F12A3B4BF900345B24 /* TravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB907FA2A3B4BF900345B24 /* TravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB9080B2A3B4BF900345B24 /* Build configuration list for PBXNativeTarget "TravelUITests" */;
+			buildPhases = (
+				3CB907F72A3B4BF900345B24 /* Sources */,
+				3CB907F82A3B4BF900345B24 /* Frameworks */,
+				3CB907F92A3B4BF900345B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB907FD2A3B4BF900345B24 /* PBXTargetDependency */,
+			);
+			name = TravelUITests;
+			productName = TravelUITests;
+			productReference = 3CB907FB2A3B4BF900345B24 /* TravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB907D92A3B4BF300345B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3CB907E02A3B4BF300345B24 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3CB907F02A3B4BF900345B24 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3CB907E02A3B4BF300345B24;
+					};
+					3CB907FA2A3B4BF900345B24 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3CB907E02A3B4BF300345B24;
+					};
+				};
+			};
+			buildConfigurationList = 3CB907DC2A3B4BF300345B24 /* Build configuration list for PBXProject "Travel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB907D82A3B4BF300345B24;
+			productRefGroup = 3CB907E22A3B4BF300345B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB907E02A3B4BF300345B24 /* Travel */,
+				3CB907F02A3B4BF900345B24 /* TravelTests */,
+				3CB907FA2A3B4BF900345B24 /* TravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB907DF2A3B4BF300345B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB907EC2A3B4BF900345B24 /* Preview Assets.xcassets in Resources */,
+				3CB907E92A3B4BF800345B24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB907EF2A3B4BF900345B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB907F92A3B4BF900345B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB907DD2A3B4BF300345B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB908212A3B616700345B24 /* TravelAppViewModel.swift in Sources */,
+				3CB908182A3B608B00345B24 /* SignInView.swift in Sources */,
+				3CB9081D2A3B60D300345B24 /* ButtonLabel.swift in Sources */,
+				3CB907E72A3B4BF300345B24 /* ContentView.swift in Sources */,
+				3CCC86662A4041DB0088302A /* LocationView.swift in Sources */,
+				3CB908142A3B55FE00345B24 /* OnboardingView.swift in Sources */,
+				3CCC86622A4041A40088302A /* NotificationsView.swift in Sources */,
+				3CCC865E2A40412C0088302A /* HomeView.swift in Sources */,
+				3CCC865A2A4031D70088302A /* AccountCreatedView.swift in Sources */,
+				3CCC86522A4030C10088302A /* SignUpView.swift in Sources */,
+				3CCC86682A4042040088302A /* SearchView.swift in Sources */,
+				3CCC86582A4031860088302A /* VerifyCodeView.swift in Sources */,
+				3CB9081F2A3B60D300345B24 /* BackButtonLabel.swift in Sources */,
+				3CCC866C2A4042590088302A /* PaymentView.swift in Sources */,
+				3CCC866A2A4042350088302A /* SearchResultsView.swift in Sources */,
+				3CCC86602A40416D0088302A /* ExploreView.swift in Sources */,
+				3CCC86642A4041BA0088302A /* ProfileView.swift in Sources */,
+				3CCC865C2A4040AD0088302A /* MainView.swift in Sources */,
+				3CB908122A3B522100345B24 /* WelcomeView.swift in Sources */,
+				3CB907E52A3B4BF300345B24 /* TravelApp.swift in Sources */,
+				3CCC86562A40313C0088302A /* EnterPhoneNumberView.swift in Sources */,
+				3CB908162A3B5A9200345B24 /* OnBoarding.swift in Sources */,
+				3CCC86542A40310D0088302A /* ForgotPasswordView.swift in Sources */,
+				3CB9081E2A3B60D300345B24 /* TextInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB907ED2A3B4BF900345B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB907F62A3B4BF900345B24 /* TravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB907F72A3B4BF900345B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB908022A3B4BF900345B24 /* TravelUITestsLaunchTests.swift in Sources */,
+				3CB908002A3B4BF900345B24 /* TravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB907F32A3B4BF900345B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB907E02A3B4BF300345B24 /* Travel */;
+			targetProxy = 3CB907F22A3B4BF900345B24 /* PBXContainerItemProxy */;
+		};
+		3CB907FD2A3B4BF900345B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB907E02A3B4BF300345B24 /* Travel */;
+			targetProxy = 3CB907FC2A3B4BF900345B24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CB908032A3B4BF900345B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB908042A3B4BF900345B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB908062A3B4BF900345B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travel/Preview Content\"";
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cubix.com.Travel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB908072A3B4BF900345B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travel/Preview Content\"";
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cubix.com.Travel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CB908092A3B4BF900345B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cubix.com.TravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Travel";
+			};
+			name = Debug;
+		};
+		3CB9080A2A3B4BF900345B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cubix.com.TravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Travel";
+			};
+			name = Release;
+		};
+		3CB9080C2A3B4BF900345B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cubix.com.TravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travel;
+			};
+			name = Debug;
+		};
+		3CB9080D2A3B4BF900345B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cubix.com.TravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB907DC2A3B4BF300345B24 /* Build configuration list for PBXProject "Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB908032A3B4BF900345B24 /* Debug */,
+				3CB908042A3B4BF900345B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB908052A3B4BF900345B24 /* Build configuration list for PBXNativeTarget "Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB908062A3B4BF900345B24 /* Debug */,
+				3CB908072A3B4BF900345B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB908082A3B4BF900345B24 /* Build configuration list for PBXNativeTarget "TravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB908092A3B4BF900345B24 /* Debug */,
+				3CB9080A2A3B4BF900345B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB9080B2A3B4BF900345B24 /* Build configuration list for PBXNativeTarget "TravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB9080C2A3B4BF900345B24 /* Debug */,
+				3CB9080D2A3B4BF900345B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB907D92A3B4BF300345B24 /* Project object */;
+}
